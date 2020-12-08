@@ -32,3 +32,5 @@ Detailed Steps Followed while building the model
 
 The first model will only be able to achieve one of the two goals - to predict customers who will churn. You can’t use the above model to identify the important features for churn. That’s because PCA usually creates components which are not easy to interpret.
 Therefore,we need to build another model with the main objective of identifying important predictor attributes which help the business understand indicators of churn. A good choice to identify important variables is a logistic regression model or a model from the tree family. In case of logistic regression, make sure to handle multi-collinearity.
+
+Kaggle link : https://www.kaggle.com/harshabelurkar/telecom-churn-case-study
